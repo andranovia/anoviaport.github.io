@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <title>Thrift</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <!--header dsgn--> 
+        <header>
+            <a href="#" class="logo">Port<span>Ofo</span>Lio.</a>
+
+            <ul class="navlist">
+               
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact me</a></li>
+
+            </ul>
+            
+            
+            <div class="bx bx-menu" id="menu-icon">
+
+
+            </div>
+        </header>
+
+        <!--header sec dsgn--> 
+        <section class="home" id="home">
+            <div class="home-text">
+                <div class="slide">
+                    <span class="one">Welcome!</span>
+                    <span class="two">Can we reach out?</span>
+                </div>
+                <h1>Im Jeremy</h1>
+                <h3>X/RPL<span>Thirty Four [34]</span></h3>
+                <p>"As a dedicated computer engineering<br> student in the 10th grade, <br>
+                    I have taken on the exciting challenge of creating<br> a website for the purpose of promoting myself<br>
+                    With a passion for both technology and sustainability, <br>
+                    mine is determined to make a positive impact<br>through this innovative project.<br>
+                </p><br>
+                <div class="button">
+                    <a href="#" class="btn">Say hi!</a>
+                    <a href="#" class="btn2"><span><box-icon name='play'></box-icon><i class='bx bx-play'></i></span>>MY WEBSITE</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--about me--> 
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="meas (4).png">
+            </div>
+            <div class="about-img">
+                <img src="meas (5).png">
+            </div>
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <h4>Yeremia <span>"GALANG"</span>Renandra</h4>
+                <p>"As a dedicated computer engineering student in the 10th grade, 
+                    I have taken on the exciting challenge of creating a website for the purpose of promoting thrifting. 
+                    With a passion for both technology and sustainability, 
+                    mine is determined to make a positive impact through this innovative project."</p>
+            </div>
+            <a href="#contact" class="btn">Interested?</a>
+
+        </section>
+
+        <!--Shop--> 
+        <section class="shop" id="shop">
+            <div class="product-img">
+                <img src="product 1 (1).png " class="first">
+            </div>
+            <div class="buy-text">
+                <h1>NIKE <br> <span style="color: rgb(233, 209, 191);">Jordan</span></h1>
+                <h5>Cactus Jack </h5>
+                <h3>$2.667.00</h3>
+                <a href="#" class="bn">Buy</a>
+            </div>
+        </section>
+
+        <div class="main">
+            <div class="row">
+                <li><img src="t1.1.png" width="150" height="75" hspace="50" onclick="slider('product 1 (1).png')"></li>
+            </div>
+            <div class="row row2">
+                <li><img src="t2 (1).png" width="150" height="75" hspace="50" onclick="slider('product 2 (1).png')"></li>></li>
+            </div>
+            <div class="row row3">
+                <li><img src="t3 (1).png" width="150" height="75" hspace="50"  onclick="slider('product 3 (1).png')"></li>></li>
+            </div>
+
+
+        </div>
+        
+
+
+        
+        <!--java-->
+
+        <script type="text/javascript" src="script.js"></script>
+
+        <script type="text/javascript">
+            function slider(anything){
+            document.querySelector('.first').src = anything;
+        }
+        </script>
+
+
+
+
+
+
+    </body>
+</html>
